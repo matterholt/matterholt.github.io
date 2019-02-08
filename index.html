@@ -5,6 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{Matt}erholt</title>
+    <style>
+        .head {
+            width: 25em;
+            height: 10em;
+            padding: 15em;
+            border: 1em dashed rebeccapurple;
+        }
+        .projects{
+            border: .2em solid black;
+            background-color: beige;
+            border-radius: .5em;
+            margin: 2em;
+            padding: 2em;
+        }
+        .list {
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+
+        }
+        .card{
+            margin: 1em;
+            padding: 1em;
+            height: 25em;
+            width: 25em;
+            background-color: white;
+            box-shadow: .5em .6em 1em grey;
+        }
+    
+    </style>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 </head>
 <body>
 
@@ -20,26 +52,38 @@
             job as validation Tech. This allowed me to improve my daily job, and update 
             some of the processes. It also allowed me to learn and use Web technologies.
         </p>
-        <div class="project__list">
-                <h3>Python Scripts</h3>
-                <p>
-                    Improving the way my group checked results. Using Python I was able to  
-                    create some results compiling script that extracts Stress/ Displacement curve.
-                </p>
-        </div>
-        <div class="project__list">
-                <h3>FEA Analysis tracker</h3>
-                <p>
-                    The FEA request is a way to communicate what changed on the model and what analysis to perform via a PPT.
-                    The problem is PPT is limited and easily lost in a sea of emails. Using electron.js could be easy enhanced
-                </p>
-        </div>
-        <div class="project__list">
-                <h3>Weekly hour log</h3>
-                <p>
-                    Currently group of us using excel to keep track of hours worked. Using Web technologies easily improve UI 
-                    of the process.
-                </p>
+        <div class="list">
+            <div class="project__list card" data-aos="zoom-in" ata-aos-easing="ease-in-out" data-aos-delay="250" data-aos-duration="800">
+                    <h3>Python Scripts</h3>
+                    <p>
+                        Notice there was repetitive process checking results. Using Abaqus Modules, I 
+                        used to access the result. Created a displacement and force curve and out put a csv file.
+                    </p>
+                    <p>
+                        Lessons: Objective Oriented Programing, basic programing practice, 
+                    </p>
+            </div>
+            <div class="project__list card" data-aos="zoom-in" ata-aos-easing="ease-in-out" data-aos-delay="450" data-aos-duration="800">
+                    <h3>FEA Analysis tracker</h3>
+                    <p>
+                        The FEA request is a way to communicate what changed on the model and what analysis to perform via a PPT.
+                        The problem is PPT is limited and easily lost in a sea of emails. Using electron.js could be easy enhanced
+                    </p>
+            </div>
+            <div class="project__list card" data-aos="zoom-in" ata-aos-easing="ease-in-out" data-aos-delay="650" data-aos-duration="800">
+                    <h3>Weekly hour log</h3>
+                    <p>
+                        Currently group of us using excel to keep track of hours worked. Using Web technologies easily improve UI 
+                        of the process.
+                    </p>
+            </div>
+            <div class="project__list card" data-aos="zoom-in" ata-aos-easing="ease-in-out" data-aos-delay="850" data-aos-duration="800">
+                    <h3>Schedule maker</h3>
+                    <p>
+                        Currently group of us using excel to keep track of hours worked. Using Web technologies easily improve UI 
+                        of the process.
+                    </p>
+            </div>
         </div>
     </div>
     <div class="carryover">
@@ -70,7 +114,7 @@
             <li> "It's not about code about how to solve the problem ", Thinking like a programer YouTube</li>
         </ul>
     </div>
-
+    <script src="/animation.js"></script>
     
 </body>
 </html>
