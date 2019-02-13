@@ -5,47 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{Matt}erholt</title>
-    <style>
-        .head {
-            width: 25em;
-            height: 10em;
-            padding: 15em;
-            border: 1em dashed rebeccapurple;
-        }
-        .projects{
-            border: .2em solid black;
-            background-color: beige;
-            border-radius: .5em;
-            margin: 2em;
-            padding: 2em;
-        }
-        .list {
-            display: flex;
-            flex-flow: row;
-            align-items: center;
-
-        }
-        .card{
-            margin: 1em;
-            padding: 1em;
-            height: 25em;
-            width: 25em;
-            background-color: white;
-            box-shadow: .5em .6em 1em grey;
-        }
-    
-    </style>
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 </head>
 <body>
-
-    <div class="head">
-        <h1>Matt Atterholt </h1> <h1> {Matt}erholt</h1>
-            <h2>Front End Web Developer and learner of Code</h2>
-            <p>Solving problems, Improving Work and always learning</p>
+    <div class="nav">
+        <p> Quick Jump </p>
+        <ul class= "nav__link">
+            <li><a href="#proj">Projects</a></li>
+            <li><a href="#carry">Previous Job</a></li>
+            <li><a href="#goal">Web Goals</a></li>
+            <li><a href="#quote">Quotes</a></li>
+        </ul>
     </div>
-    <div class="projects">
+
+    <div class="title">
+        <div class="title__nkName">
+             <h1> {Matt}erholt</h1>
+        </div>
+        <div class="title__name">
+            <h2>Matt Atterholt </h2>
+        </div>
+        <div>
+               <h2>Front End Web Developer and</h2>
+                   <h2>learner of Code</h2> 
+               <p>Solving problems, Improving Work and always learning</p>
+        </div>
+    </div>
+    <div id = "proj" class="projects">
         <h2>Project Focus</h2>
         <p>
             Most of my project were based on making improvement of work flow at my 
@@ -86,7 +74,7 @@
             </div>
         </div>
     </div>
-    <div class="carryover">
+    <div id= "carry" class="carryover">
         <h2>Things that carry over from current work.</h2>
         <h3>I have worked in as validation tech. For 10 plus years of automotive development.</h3>
         <p>Here are a few things I have picked up.</p>
@@ -97,7 +85,7 @@
             <li>Learning New tech to improve methods work flow. </li>
         </ul>
     </div>
-    <div class="webGoal">
+    <div id="goal" class="webGoal">
         <h3>2019 Web Goals</h3>
         <ul>
             <li>Start a Career in Web Development</li>
@@ -106,7 +94,7 @@
             <li>Write more Javascript</li>
         </ul>
     </div>
-    <div class="interesting">
+    <div id="quote" class="interesting">
         <h2>Some Web Quotes</h2>
         <ul>
             <li> "You don't have to know, but you do know a little"(Sarah Drasner or Syntax - can't remember)</li>

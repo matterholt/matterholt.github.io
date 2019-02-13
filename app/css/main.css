@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica; }
+
+.nav {
+  color: #dad7cd;
+  height: 2.3em;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  border-bottom: 0.2em solid #f3a712;
+  background-color: #272727;
+  transition: height 2s, background-color 2s, -webkit-text-decoration 1s;
+  transition: height 2s, background-color 2s, text-decoration 1s;
+  transition: height 2s, background-color 2s, text-decoration 1s, -webkit-text-decoration 1s;
+  /* hover is OK for web page but for phone and smaller screens need to make click*/ }
+  .nav p {
+    padding: 1em;
+    font-weight: 700; }
+    .nav p:hover {
+      background-color: #272727; }
+  .nav:hover {
+    height: 20em;
+    background-color: #414040; }
+  .nav__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 16.5em; }
+    .nav__link li {
+      padding: 1em; }
+      .nav__link li:hover {
+        background-color: #dad7cd;
+        color: #272727;
+        text-decoration: underline; }
+      .nav__link li:active {
+        color: #eae8ff;
+        background-color: #dad7cd; }
+    .nav__link a {
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 0 2em;
+      color: inherit; }
+
+.title {
+  color: #eae8ff;
+  background-color: #272727;
+  display: block;
+  width: 100%;
+  height: 40em;
+  text-align: center;
+  border-bottom: 0.1em solid #f3a712; }
+  .title__nkName {
+    text-align: center;
+    padding: 2em 0;
+    font-size: 2em;
+    font-weight: 900;
+    color: #f3a712; }
+  .title__name {
+    color: #eae8ff;
+    height: 5em; }
+
+.projects {
+  height: 35em;
+  padding: 3em; }
+
+.carryover {
+  height: 35em;
+  padding: 3em; }
+
+.webGoal {
+  height: 35em;
+  padding: 3em; }
+
+.interesting {
+  height: 35em;
+  padding: 3em; }
