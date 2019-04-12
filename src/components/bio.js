@@ -38,8 +38,9 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              <strong>{author}</strong>, Started with a script to help automate
+              some task at my Engineering company I work for. Then developed in
+              to full blown out desire to work as a Front End Developer <br />
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow him on Twitter
