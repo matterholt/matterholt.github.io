@@ -1,7 +1,10 @@
 ---
-title: Background
-date: "2019-12-04"
+title: Begining Mechanical Engineer going Web Engineer
+date: "2019-05-09"
+description: Ten plus years working in the Automotive Engineering field developing suspension, when I created a simple script change the projection of my career...
 ---
+
+... My Mechanical Engineering career has steady progressed. I worked in the CAE group as a Techician.
 
 ## Getting into Front End.
 

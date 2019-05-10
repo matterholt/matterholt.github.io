@@ -43,7 +43,7 @@ function Bio() {
               to full blown out desire to work as a Front End Developer <br />
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                Check out some tweets and follow.
               </a>
             </p>
           </div>
