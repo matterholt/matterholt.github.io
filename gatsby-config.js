@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Matterholt Front-End Developer`,
+    title: `Grow Mode`,
     author: `Matt Atterholt`,
     description: `Front end web dump`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
