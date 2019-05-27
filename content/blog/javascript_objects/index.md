@@ -4,6 +4,10 @@ date: "2019-05-19"
 description: JS object ain't no thing. this post will be a quick overview of how to work with javascript object. Basicity the parse of a json file
 ---
 
+## creating an Object
+
+## 1
+
 ## looking up Objects
 
 There are two ways to look up an item in an object
