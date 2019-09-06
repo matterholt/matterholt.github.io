@@ -3,7 +3,7 @@ import React from "react"
 function SiteIntro() {
   return (
     <div>
-      <h2>Mantra</h2>
+      <h2>what I'm about</h2>
 
       <p>
         Learning never stops, nothing is more evident of that in the web. It can
