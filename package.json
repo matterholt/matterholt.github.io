@@ -1,0 +1,25 @@
+{
+  "name": "matterholt.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rm -rf ./devin && rm -rf ./.cache && parcel public/index.html --out-dir devin -p 3000",
+    "build": "parcel build public/index.html --out-dir dist --public-url"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matterholt/matterholt.github.io.git"
+  },
+  "keywords": [],
+  "author": "MAtterholt",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
+  },
+  "bugs": {
+    "url": "https://github.com/matterholt/matterholt.github.io/issues"
+  },
+  "homepage": "https://github.com/matterholt/matterholt.github.io#readme"
+}
