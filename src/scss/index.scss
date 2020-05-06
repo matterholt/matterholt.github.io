@@ -2,6 +2,8 @@ body {
     background-color: #252422;
     grid-template-columns: 80vw 1fr;
     grid-template-rows: 75px 1fr;
+    margin: 0;
+    padding: 0;
     display: grid;
     height: 100vh;
     width: 100vw;
@@ -43,6 +45,8 @@ body {
     align-items: center;
     color: #f5f9e942;
     background-color: #353535;
+    font-family: 'Open Sans',
+        sans-serif;
 
     ul {
         list-style: none;
@@ -65,8 +69,8 @@ body {
 
 .nav__above {
 
-    color: blue;
-    font-size: 3em;
+    color: #666763;
+    font-size: 2em;
     grid-row: 1;
     display: flex;
     flex-flow: column;
@@ -75,13 +79,13 @@ body {
 .nav__current {
     color: #F5F9E9;
     grid-row: 2;
-    font-size: 5em;
+    font-size: 3em;
 }
 
 .nav__below {
-    color: navy;
+    color: #666763;
     grid-row: 3;
     display: flex;
     flex-flow: column;
-    font-size: 3em;
+    font-size: 2em;
 }
