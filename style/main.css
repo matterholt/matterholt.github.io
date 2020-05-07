@@ -1,0 +1,40 @@
+:root {
+    --page-black: #252422;
+    --page-white: #F5F9E9;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--page-black);
+    color: var(--page-white);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+
+    width: 100vw;
+    padding-bottom: 75px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title {
+    font-size: 3.5rem;
+}
+
+section {
+    width: 80vw;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
