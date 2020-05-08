@@ -2,94 +2,121 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Matterholt Hub</title>
-  <link rel="stylesheet" href="./style/main.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Matterholt Hub</title>
+	<link rel="stylesheet" href="./style/main.css">
 </head>
 
-<body>
-  <header>
-    <h1 class="title"> Matthew Atterholt</h1>
-    <p> Matterholt the Front-End </p>
-  </header>
-   <h2> Building a Blogging Platform </h2>
-   <p>
-    I feel as everyone should have a blog-type platform. Especially if there is an interest to learn about a thing. I have spent
-    the past previous years documenting on pen and paper only to have the info lost. Then switch to Notion which is great and I will
-    continue to document but it lacks a public face and can get messy (at least for me). So I think it is time to build a blog using
-		a blog.A personal blog is a pretty simple, there are not too many moving parts but is how we are going to exicute the parts. 
-    </p>
-		
-    <article>
-    <h3>What is the desired build</h3>
 
-      <p>
-			Before we get started building on the blog. It would be good to get an idea on how we want exaclty we want to do with the blog.
-      If we want to start putting content out probably something like Medium or DEV.TO would work. Just signing up will allow you to 
-			posting and there is no need to build anything. By far the easiest avenue, but it leave me unsatisfied. I want to be a good 
+<body>
+	<nav><a href="index.html">Back Home</a></nav>
+	<section>
+		<h2> Building a Personal Blog </h2>
+		<p>
+			I feel as everyone should have a blog-type platform. Especially if there is an interest to learn about a
+			thing.
+			I have spent
+			the past previous years documenting on pen and paper only to have the info lost. Then switch to Notion which
+			is
+			great and I will
+			continue to document but it lacks a public face and can get messy (at least for me). So I think it is time
+			to
+			build a blog using
+			a blog.A personal blog is a pretty simple, there are not too many moving parts but is how we are going to
+			execute the parts.
+		</p>
+
+
+		<h3>What is the desired build</h3>
+
+		<p>
+			Before we get started building on the blog. It would be good to get an idea on how we want exactly we want
+			to do with the blog.
+			If we want to start putting content out probably something like Medium or DEV.TO would work. Just signing up
+			will allow you to
+			posting and there is no need to build anything. By far the easiest avenue, but it leave me unsatisfied. I
+			want to be a good
 			Front-end Developer and I want to make it my own and I want to create more a note book for my self.
-			</p>
-			
-			<p>
-			So the personal blog, allow me to build something which satisfies my passon to learn. Give me place for me to document my journey.
-			Allows me to take the freedom to style how I want and use the technolgy that I perfer. With all the freedom does cost something,
-			with everything possible then it could be dificult to start. So lets break down into sections and start limiting our possiblities 
-			</p>
-			
-			<h3>Tech-Stack</h3>
-			<p>
-->			Before we move move foward in designing the blog pages I think we need to address the tech-stack that I want to use for this page.
-			This is tough because it can be down with basic html and some css. but this 2020 and we have alot of options and exciting technogies
-			to use. So to reduce the scope, so some tech that would produce a static page. It will allow it to be easily hosted and fast. Modern 
-			frame-work and allow me to build in components. It boils down to Vue, React and Angular. Though it may be over kill to use these
-			frame-work or libary, these are the things being use out in the world and I would like to build and learn more about them. I have
-			always found Vue interesting and Angluar I haven't touched but React has been where I have invested of my time so I'm going to move foward with React and 
-			using NEXT.js to get the static site. There will be no need for a backend we can just generate it each time a markdown file is added
+		</p>
+
+		<p>
+			So the personal blog, allow me to build something which satisfies my passion to learn. Give me place for me
+			to document my journey.
+			Allows me to take the freedom to style how I want and use the technology that I prefer. With all the freedom
+			does cost something,
+			with everything possible then it could be difficult to start. So lets break down into sections and start
+			limiting our possibilities
+		</p>
+
+		<h3>Tech-Stack</h3>
+		<p>
+			-> Before we move move forward in designing the blog pages I think we need to address the tech-stack that I
+			want to use for this page.
+			This is tough because it can be down with basic html and some css. but this 2020 and we have a lot of
+			options
+			and exciting technologies
+			to use. So to reduce the scope, so some tech that would produce a static page. It will allow it to be easily
+			hosted and fast. Modern
+			frame-work and allow me to build in components. It boils down to Vue, React and Angular. Though it may be
+			over kill to use these
+			frame-work or library, these are the things being use out in the world and I would like to build and learn
+			more about them. I have
+			always found Vue interesting and Angular I haven't touched but React has been where I have invested of my
+			time so I'm going to move forward with React and
+			using NEXT.js to get the static site. There will be no need for a backend we can just generate it each time
+			a markdown file is added
 			to the file.(NEED TO CONFIRM THAT THIS IS WHAT WOULD HAPPEN)
-			</p>
-			
-			<h3> Layout/Design </h3>
-			<p> I'm not a designer, but I like things to look nice. I guess some product research would be a good idea.
-			<ul> 
+		</p>
+
+		<h3> Layout/Design </h3>
+		<p> I'm not a designer, but I like things to look nice. I guess some product research would be a good idea.
+			<ul>
 				<li>DEV.TO -> A blogging platform where you can sign up and post content.</li>
 				<li>SmashingMag -> A magazine blog like information center. </li>
 				<li>Wesboss -> Personal web site simple and true </li>
 				<li> other -> codepen, danabrame, ... </li>
 			</ul>
-			
-			There are basicly
-			two pages we need to consern ourselves with.
+			<div class="tempImage">
+				There are basic
+				two pages we need to concern ourselves with.
 
-			ADD WIRE FRAME MOC UP	
-			_____			_____  
-			|___|			|___|
-			ADD WIRE FRAME MOC UP	
-			
-			<p> 
-			First paget is the blog list landing page. The purpose of the are is to list out what post are available and possibly searching
-			by tag, or keywords and a quick summary of the post(got to try to hook em).Let break the page down in web page section in which 
-			we will call them components.
-			</p>
-			<p>
-			In the simplist form there are three top level components. The Header, the area to let the user what website they are visting.
-			Next section could be Page Navigation component, Here we can give the user some option on how to find the articles. Examples would be
-			filtering by tag or keyword, sort by date, and maybe a page number. 
-			As work the way down that page we can see that we have gotten to the blog lists. This component is at the heart of the user interaction.
-			At this coponent should have the title of article, quick summary, tags, and date. 
-			</p>
+				ADD WIRE FRAME MOC UP
+				_____XXXX _____
+				|_XXX__| |_XXX__|
+				ADD WIRE FRAME MOC UP
+			</div>
+
 
 			<p>
-			This three component will lay the foundation of the blog build. I want to get things on the page so I will tackle the Blog post List
-			first. we have a few 
+				First page is the blog list landing page. The purpose of the are is to list out what post are available
+				and possibly searching
+				by tag, or keywords and a quick summary of the post(got to try to hook em).Let break the page down in
+				web page section in which
+				we will call them components.
 			</p>
-						
+			<p>
+				In the simplest form there are three top level components. The Header, the area to let the user what
+				website they are visiting.
+				Next section could be Page Navigation component, Here we can give the user some option on how to find
+				the articles. Examples would be
+				filtering by tag or keyword, sort by date, and maybe a page number.
+				As work the way down that page we can see that we have gotten to the blog lists. This component is at
+				the heart of the user interaction.
+				At this component should have the title of article, quick summary, tags, and date.
+			</p>
 
-			
-  		</article>
-  <main>
+			<p>
+				This three component will lay the foundation of the blog build. I want to get things on the page so I
+				will tackle the Blog post List
+				first. we have a few
+			</p>
 
-  </main>
+
+	</section>
+
+
+	</main>
 </body>
 
 </html>
