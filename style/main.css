@@ -19,33 +19,60 @@ body {
     color: var(--page-white);
     display: flex;
     flex-flow: column;
-    justify-content: center;
     align-items: center;
-    margin: 10px;
 }
 
 header {
     width: 100vw;
-    margin-top: 250px;
     padding-bottom: 75px;
     font-size: 1.5rem;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--page-white);
+    border-bottom: 1px solid var(--page-white);
 
 }
 
-.title {
+nav {
+    display: flex;
+    background: var(--page-white);
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.nav__webisteName {
+    color: var(--page-black);
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-right: 10px;
+
+
+}
+
+.landingPage__title {
     font-size: 3.5rem;
 }
 
-.projectWriteUp {
+.LandingPage__subTitle {
+    font-size: 3rem;
+}
+
+.landingPage__writeUps-container {
     font-size: 2rem;
+    width: 70vw;
+
+}
+
+.writeUps__cards {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.5rem;
     background-color: var(--page-white);
     color: var(--page-black);
-    width: 50vw;
+    margin: 20px;
 }
 
 .tempImage {
@@ -53,6 +80,19 @@ header {
     height: 500px;
     background: white;
     color: black;
+}
+
+.footer__text {
+    width: 550px;
+    margin-top: 100px;
+}
+
+.changelog__section {
+    background-color: var(--page-white);
+    color: var(--page-black);
+    width: 60vw;
+    padding: 10px;
+    margin: 10px;
 }
 
 section {
