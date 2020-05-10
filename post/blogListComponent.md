@@ -1,18 +1,11 @@
----
-title: Build a Blog list Component
-slug: The first component to build for the Blog
-category:
-  -React
-  -BuildComponent
- date:
----
-
 # Blog List Component Build
+
+building a blog is easy. but there are thing we need to think about
 
 ## Tech Stack
 
 ------another page
-Not going to lie but it is mostly determined buy personal preferance. but I want to keep an open mind and I want to learn new thing. but i want to stick with react base
+Not going to lie but it is mostly determined buy personal preference. but I want to keep an open mind and I want to learn new thing. but i want to stick with react base
 
 ## Component Concept
 
