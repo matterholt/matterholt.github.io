@@ -9,30 +9,35 @@
 </head>
 
 <body>
+
+  <nav class="nav__top">
+    <ul>
+      <li>
+        <a href="#project">Projects</a>
+      </li>
+      <li>
+        <a href="#externalLinks">External Links</a>
+      </li>
+      <li>
+        <a href="#codePlaygrounds">Code Playground</a>
+      </li>
+    </ul>
+    <p class="nav__websiteTitle">Matterholt-hub</p>
+  </nav>
+
+  <header>
+    <h1 class="landingPage__title"> Matthew Atterholt</h1>
+    <p> Matterholt the Front-End Developer </p>
+    <p>
+      There is a lot to learn in the world of programing. I like it, but I tend to get
+      is a position where I tend to consume more then I produce. I want to be a good Developer.
+      Currently I will focus on the Front, and build the client facing application.
+    </p>
+  </header>
+
   <main class="landingPage">
-    <header>
-      <h1 class="landingPage__title"> Matthew Atterholt</h1>
-      <p> Matterholt the Front-End </p>
-    </header>
-
-    <section>
-      <p>
-        I have been working with code since 2017. I enjoy learning the different aspects of coding.
-        I trying to focus my learning to Front-End to become a "professional" developer.
-      </p>
-      <h3>Links</h3>
-      <ul>
-        <li>Personal website</li>
-        <li>Twitter account</li>
-        <li>Linked In</li>
-        <li>FreeCode Camp</li>
-
-      </ul>
-
-    </section>
-    <h2 class="LandingPage__subTitle">Project write ups</h2>
-    <div class="landingPage__writeUps-container">
-
+    <div id="project" class="landingPage__writeUps-container">
+      <h2 class="LandingPage__subTitle">Project write ups</h2>
       <div class="writeUps__cards">
         <h3>Building Personal Blog</h3>
         <p>Everyone should have a blog or a place to place the thing that
@@ -40,27 +45,64 @@
         </p>
         <a href="blog_build.html">Building a Blog page</a>
       </div>
-
-      <div class="writeUps__cards">
-        <h3>Building Personal Blog</h3>
-        <p>Everyone should have a blog or a place to place the thing that
-          they have learn. I will attempt to walk though my development process
-        </p>
-        <a href="blog_build.html">Building a Blog page</a>
-      </div>
-
     </div>
-    <footer>
-      <p class="footer__text">
-        This page is going to try to stay generic as possible. Allowing gain perspective on how
-        webpages where built in the past. By reducing complications I hope be able to focus on
-        managing css and HTML tags. A change log of additions can be found
-        <a href="docs/changeLog.html">Tech Change log</a> Here I will explain why the tech was added and
-        the benefits of adding something like it to the webpages.
-      </p>
-    </footer>
   </main>
 
+
+
+  <nav id="externalLinks" class="nav__container">
+    <h3 class="nav__subtitle">External Links</h3>
+    <ul class="nav__list">
+      <li>
+        <a class="nav__Link" target="_blank" href="https://matterholtdevlop.netlify.app/">
+          Personal website</a>
+      </li>
+      <li>
+        <a class="nav__Link" target="_blank" href="https://twitter.com/MatterholtDev">Twitter account</a>
+      </li>
+      <li>
+        <a class="nav__Link" target="_blank" href="https://www.linkedin.com/in/matthew-atterholt-5628b575/">
+          Linkedin
+        </a>
+      </li>
+      <li>
+        <a class="nav__Link" target="_blank" href="https://codepen.io/Matterholt">
+          CodePen
+        </a>
+      </li>
+      <li>
+        <a class="nav__Link" target="_blank" href="https://codesandbox.io/u/matterholt">
+          CodeSandbox
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <nav id="codePlaygrounds" class="nav__container">
+    <h3 class="nav__subtitle">Code Playground</h3>
+    <ul class="nav__list">
+      <li>
+        <a class="nav__Link" target="_blank" href="https://codepen.io/Matterholt">
+          CodePen
+        </a>
+      </li>
+      <li>
+        <a class="nav__Link" target="_blank" href="https://codesandbox.io/u/matterholt">
+          CodeSandbox
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <footer>
+    <p class="footer__text">
+      This page is going to try to stay generic as possible. Allowing gain perspective on how
+      webpages where built in the past. By reducing complications I hope be able to focus on
+      managing css and HTML tags. A change log of additions can be found
+      <a href="docs/changeLog.html">Tech Change log</a> Here I will explain why the tech was added and
+      the benefits of adding something like it to the webpages.
+    </p>
+  </footer>
 </body>
 
 </html>

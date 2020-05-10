@@ -1,6 +1,7 @@
 :root {
     --page-black: #252422;
     --page-white: #F5F9E9;
+    --hilight-color: #39A0ED;
     font-size: 62.5%;
 }
 
@@ -14,34 +15,39 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header>h1 {
+    border-bottom: 1px solid var(--hilight-color);
+    width: 50vw;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.nav__top {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--page-white)
+}
+
 .landingPage {
     background: var(--page-black);
     color: var(--page-white);
     display: flex;
     flex-flow: column;
     align-items: center;
-}
-
-header {
-    width: 100vw;
-    padding-bottom: 75px;
-    font-size: 1.5rem;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid var(--page-white);
 
 }
 
-nav {
-    display: flex;
-    background: var(--page-white);
-    padding: 10px;
-    justify-content: space-between;
-}
-
-.nav__webisteName {
+.nav__websiteTitle {
     color: var(--page-black);
     padding: 0;
     margin: 0;
@@ -62,7 +68,7 @@ nav {
 
 .landingPage__writeUps-container {
     font-size: 2rem;
-    width: 70vw;
+    min-height: 100vh;
 
 }
 
@@ -82,10 +88,6 @@ nav {
     color: black;
 }
 
-.footer__text {
-    width: 550px;
-    margin-top: 100px;
-}
 
 .changelog__section {
     background-color: var(--page-white);
@@ -95,17 +97,54 @@ nav {
     margin: 10px;
 }
 
-section {
-    width: 60vw;
-    font-size: 1.5rem;
-    line-height: 3rem;
-    margin-left: 50px;
+.nav__container {
+    font-size: 1.2rem;
+    min-width: 100vw;
+    padding-bottom: 25px;
+    min-height: 25vh;
+    margin-top: 50px;
 }
 
-section>p {
-    margin-left: 10px;
+.nav__list {
+    display: flex;
+
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-section>h3 {
-    font-weight: 700;
+.nav__Link {
+    display: inline-block;
+    background-color: var(--page-white);
+    color: var(--page-black);
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
+    border-radius: 2px;
+    min-width: 120px;
+}
+
+.nav__subtitle {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 20px;
+
+}
+
+.nav__Link:hover {
+    background-color: var(--hilight-color);
+    color: var(--page-white);
+}
+
+.nav__Link:active {
+    background-color: var(--hilight-color);
+    color: var(--page-white);
+    font-weight: 900;
+
+}
+
+.footer__text {
+    width: 550px;
+    margin-top: 100px;
 }
