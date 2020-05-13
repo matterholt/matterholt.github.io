@@ -6,7 +6,9 @@ In order to pick a good tech, we should think about what the application is goin
  
 Using markdown files for the post has been a common way to get content to the front. Without the need to build a back-end server. Markdown file is easy to manage and once you get how to structure the files can be created quickly. Another benefit is that the file can live with in our application and parse into HTML or other forms such as JSX.
 
-Getting into the good stuff now. At the bare minimum we could use a Static site generator would be a good fit for the blog. Generators uch as Jakyll, which can be hosted free on GitHub. This would provide us a simple and efficient way to build the blog. The downside is that Jakyll is old tech and we may not have some of the features of today's modern frameworks.  If we don't want to build with Jakyll, we have to deploy it somewhere else.
+Getting into the good stuff now. At the bare minimum we could use a Static site generator would be a good fit for the blog. Generators uch as Jakyll, which can be hosted free on GitHub Pages. This would provide us a simple and efficient way to build the blog. The downside is that Jakyll is old tech and we may not have some of the features of today's modern frameworks.  If we don't want to build with Jakyll, we have to deploy it somewhere else or start learning some serverless functions. 
+
+*..serverless functions..*
 
 *..more benefits of Jakyll...*
 
