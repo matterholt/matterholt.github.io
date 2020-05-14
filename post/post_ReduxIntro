@@ -1,0 +1,29 @@
+# Redux
+
+## what is it
+Single source of truth that manages the state of the application. It is not framework dependent, though there was a time when was tied closely to React
+
+## when should you reach for Redux opps
+
+
+## How to use it
+
+1. Actions
+  The way to send info from the application to the store. Which are just JS objects.
+  a. Action Creator are function that returns a actions
+2. Reducers 
+  handles how the state is changed.
+
+  
+## Benefits
+
+
+
+
+## Questions
+
+how does this work with state machines,is it different or simular??
+
+how does redux compare to useContext?
+
+https://egghead.io/courses/getting-started-with-redux
