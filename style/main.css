@@ -1,6 +1,10 @@
 :root {
     --page-black: #252422;
     --page-white: #CACFDC;
+    --main-white: #ebebd3;
+    --main-black: #09171c;
+    --fav-dark: #06384d;
+    --fav-accent: #dcb122;
     --hilight-color: #39A0ED;
     font-size: 62.5%;
     font-family: Arial,
