@@ -1,185 +1,103 @@
-:root {
-    --page-black: #252422;
-    --page-white: #CACFDC;
-    --main-white: #ebebd3;
-    --main-black: #09171c;
-    --fav-dark: #06384d;
-    --fav-accent: #dcb122;
-    --hilight-color: #39A0ED;
+html {
     font-size: 62.5%;
-    font-family: Arial,
-        Helvetica,
-        sans-serif;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background: var(--page-black);
-    color: var(--page-white);
-    width: 100vw;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-
+h1,
+h2,
+h3,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
 
 header {
     width: 100vw;
-    height: 75vh;
+
+    margin: 0;
+    background-color: #08415C;
+    color: #EEE5E9;
     font-size: 1.5rem;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    margin-top: 50px;
-    background-color: #031D44;
-}
-
-.header__para {
-    width: 50vw;
-
-}
-
-header>h1 {
-    border-bottom: 1px solid var(--hilight-color);
-    width: 50vw;
     text-align: center;
-    padding-bottom: 20px;
-}
-
-.nav__top {
-    display: flex;
-
-    justify-content: space-between;
-    background-color: var(--page-white)
-}
-
-.topNav__list {
-    display: flex;
-    justify-content: space-evenly;
-    width: 50vw;
-}
-
-.landingPage {
-    background: var(--page-black);
-    color: var(--page-white);
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-
-}
-
-.nav__websiteTitle {
-    color: var(--page-black);
-    padding: 0;
-    margin: 0;
-    font-weight: 900;
-    font-size: 1.5rem;
-    margin-right: 10px;
-
-
-}
-
-.landingPage__title {
-    font-size: 3.5rem;
-}
-
-.LandingPage__subTitle {
-    font-size: 3rem;
-}
-
-.landingPage__writeUps-container {
-    font-size: 2rem;
-    min-height: 100vh;
-
-}
-
-.MainwriteUp__container {
-    width: 75vw;
-    font-size: 1.5rem;
-    padding: 25px;
-    line-height: 19px;
-
-}
-
-.writeUps__cards {
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 1.5rem;
-    background-color: var(--page-white);
-    color: var(--page-black);
-    margin: 20px;
-}
-
-.tempImage {
-    width: 550px;
-    height: 500px;
-    background: white;
-    color: black;
-}
-
-
-.changelog__section {
-    background-color: var(--page-white);
-    color: var(--page-black);
-    width: 60vw;
-    padding: 10px;
-    margin: 10px;
-}
-
-.nav__container {
-    font-size: 1.2rem;
-    max-width: 375px;
-    padding-bottom: 25px;
-    min-height: 25vh;
-    margin: 50px;
-}
-
-.nav__list {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.nav__Link {
     display: inline-block;
-    background-color: var(--page-white);
-    color: var(--page-black);
-    padding: 5px;
-    margin: 3px;
-    text-align: center;
-    border-radius: 2px;
-    min-width: 120px;
 }
 
-.nav__subtitle {
-    text-align: center;
-    font-size: 2rem;
-    padding-top: 20px;
-
-}
-
-.nav__Link:hover {
-    background-color: var(--hilight-color);
-    color: var(--page-white);
-}
-
-.nav__Link:active {
-    background-color: var(--hilight-color);
-    color: var(--page-white);
-    font-weight: 900;
-
-}
-
-.footer__text {
-    width: 550px;
-    margin-top: 100px;
-}
-
-.link__resource {
+.landing__container {
     display: flex;
-    flex-wrap: wrap;
+}
+
+.landing__title {
+    margin-top: 10px;
+}
+
+.landing_intro {
+    width: 50vw;
+    height: 100vh;
+    color: #08415C;
+    background-color: #EEE5E9;
+    font-size: 1.5rem;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    padding-top: 25px;
+}
+
+.landing_skill {
+    margin: 15px 50px;
+    display: inline-block;
+
+}
+
+.landing__subtitle {
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.smalltext {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.title__sub {
+    margin: 10px;
+
+}
+
+.projects_container {
+    background-color: #08415C;
+    color: #EEE5E9;
+    font-size: 1.5rem;
+    min-height: 90vh;
+
+}
+
+.projectcard__container {
+    display: flex;
+
+}
+
+.project__card {
+    background-color: #EEE5E9;
+    list-style: none;
+    margin: 20px;
+    width: min-content;
+}
+
+.card__links {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.card__title {
+    text-align: center;
+    font-size: 1.2rem;
+    color: black;
 }
