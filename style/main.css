@@ -19,13 +19,25 @@ p {
 
 header {
     width: 100vw;
-
     margin: 0;
     background-color: #08415C;
     color: #EEE5E9;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     text-align: center;
     display: inline-block;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+
+}
+
+.title_about {
+    width: 50%;
+    margin: 10px;
+    line-height: 40px;
 }
 
 .landing__container {
