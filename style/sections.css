@@ -1,0 +1,18 @@
+.section__container {
+    background-color: cadetblue;
+    margin: 10px;
+}
+
+.landing__header {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 90vh;
+    background-color: var(--main-hex-dark);
+    color: var(--main-hex-light);
+}
+
+.landing__content {
+    text-align: center;
+
+}
