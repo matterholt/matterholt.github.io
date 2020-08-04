@@ -3,16 +3,19 @@ html {
 }
 
 :root {
-    --main-hex-dark: #08415C;
+    --main-hex-dark: #06384d;
     --main-hex_splash: #FDCA40;
-    --main-hex-light: #E6E8E6;
+    --main-hex-light: #d2dad7;
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto',
+    font-family: Verdana,
+        Geneva,
         sans-serif;
+    background-color: var(--main-hex-dark);
+    color: var(--main-hex-light);
 }
 
 h1,
