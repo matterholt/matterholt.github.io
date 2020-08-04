@@ -5,7 +5,6 @@
     color: var(--main-hex-light);
     text-decoration: none;
 
-
 }
 
 .sectionLink:hover {
@@ -20,14 +19,19 @@
 
 
 .section__container {
-    background-color: cadetblue;
+    background-color: var(--main-hex-light);
+    color: var(--main-hex-dark);
     margin-top: 10px;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    padding: 25px;
 }
 
 .landing__header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 50px 1fr;
+    grid-template-rows: 50px 1fr 150px;
     height: 96vh;
     padding: 15px;
     color: var(--main-hex-light);
