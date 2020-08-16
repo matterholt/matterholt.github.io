@@ -1,0 +1,47 @@
+.landing__header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px 1fr 150px;
+    height: 96vh;
+    padding: 15px;
+    background-color: var(--main-hex-light);
+    font-size: 2rem;
+    font-weight: 200;
+
+}
+
+
+.landing__h1 {
+    font-size: 5rem;
+    line-height: 55px;
+    letter-spacing: 0.062em;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.landing__content {
+    grid-column: 1/span2;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    margin-bottom: 25px;
+    place-items: center;
+    display: flex;
+    flex-flow: column;
+    height: 250px;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.landing__description {
+    grid-row: 3;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 375px) {
+    .landing__header {
+        display: flex;
+        flex-flow: column;
+    }
+}
