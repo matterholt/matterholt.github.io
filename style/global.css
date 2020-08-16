@@ -14,8 +14,8 @@ body {
     font-family: Verdana,
         Geneva,
         sans-serif;
-    background-color: var(--main-hex-dark);
-    color: var(--main-hex-light);
+    color: var(--main-hex-dark);
+    background-color: var(--main-hex-light);
 }
 
 h1,
