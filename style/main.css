@@ -2,10 +2,10 @@
     display: flex;
     justify-content: end;
     flex-flow: row;
-    align-items: center;
     font-size: 1.2rem;
     margin-top: 15px;
     grid-column: 1 /span2;
+    text-transform: uppercase;
 }
 
 
@@ -16,15 +16,18 @@
     color: var(--main-hex-dark);
     text-decoration: none;
     padding: 5px 10px;
-    border-radius: 2px;
+    line-height: 36px;
+
 }
 
 .sectionLink:hover {
-    color: var(--main-hex_splash);
-    text-decoration: underline;
-    background-color: var(--main-hex-dark);
+    transition-property: all;
+    transition-duration: .2s;
+    transition-delay: .12s;
+    color: var(--main-hex-dark);
+    border-bottom: 1rem solid var(--main-hex_splash);
     padding: 5px 10px;
-    border-radius: 2px;
+
 }
 
 .sectionLink:active {
@@ -55,4 +58,11 @@
     text-align: center;
     display: flex;
     justify-content: space-evenly;
+}
+
+.toTopLink {
+    margin-top: 15px;
+    grid-row: 3;
+    grid-column: 2;
+    justify-self: end;
 }
