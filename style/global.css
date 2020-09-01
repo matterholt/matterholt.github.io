@@ -18,7 +18,9 @@ Roboto-Light html {
 
 :root {
     --main-hex-dark: #06384d;
-    --main-orange: #FDCA40;
+    /* --main-orange: #FDCA40; */
+    --main-orange: #ff8800bb;
+    /* --main-orange: #9B4828; */
     --main-hex-light: #eaedf2;
     --main-white: #eaedf2;
 
