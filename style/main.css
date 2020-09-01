@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    height: 42px;
+    height: 50px;
     padding-bottom: 11px;
 }
 
@@ -80,7 +80,6 @@
 }
 
 .landing__subtitle {
-    font-weight: 900;
     margin-bottom: 15px;
 }
 

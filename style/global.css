@@ -41,10 +41,12 @@ h3 {
 }
 
 p,
-li {
+li,
+a {
     font-family: Roboto;
 
 }
+
 
 h1,
 h2,
@@ -53,4 +55,5 @@ ul,
 p {
     margin: 0;
     padding: 0;
+    margin-bottom: 15px;
 }
