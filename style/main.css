@@ -44,7 +44,6 @@
     padding: 5px 10px;
 }
 
-
 .contact__icons {
     text-align: center;
     display: flex;
@@ -64,7 +63,7 @@
 
 .landing__header {
     display: grid;
-    grid-template-columns: 50px repeat(3, 1fr) 50px;
+    grid-template-columns: 150px 1fr 150px;
     grid-template-rows: 50px 1fr 50px;
     height: 100vh;
     padding: 15px;
@@ -75,30 +74,23 @@
 }
 
 .landing__h1 {
-    font-family: Montserrat;
     font-size: 5rem;
-    letter-spacing: 0.062em;
-    font-weight: 900;
-    grid-row: 2;
-    grid-column: 2;
     border-bottom: 5px solid var(--main-orange);
     margin-bottom: 30px;
 }
 
 .landing__subtitle {
-    grid-row: 2;
-    grid-column: 3;
-
+    font-weight: 900;
+    margin-bottom: 15px;
 }
 
 
 .landing__Intro {
     font-size: 1.5rem;
     font-weight: 100;
-    grid-column: 2 / span3;
+    grid-column: 2;
     grid-row: 2;
     place-self: center;
-    width: 75%;
 }
 
 
@@ -116,19 +108,19 @@
     display: grid;
     padding-top: 64px;
     margin-bottom: 50px;
-    grid-template-rows: 100px min-content min-content 25px;
-    grid-template-columns: 50px 1fr 50px;
+    grid-template-rows: auto min-content min-content 25px;
+    grid-template-columns: 150px 1fr 150px;
 }
 
 .section_heading {
     grid-row: 1;
-    grid-column: 2/3;
+    grid-column: 2;
     font-size: 4rem;
-    font-weight: 900;
     font-weight: 900;
     width: 100%;
     border-bottom: 5px solid var(--main-orange);
-    margin-bottom: 5px;
+    margin-bottom: 30px;
+    padding: 15px;
     text-align: center;
 }
 
@@ -143,7 +135,16 @@
 .section__info {
     grid-row: 3;
     grid-column: 2;
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+
 }
+
+.section__info>li {
+    margin-bottom: 25px;
+}
+
 
 .toTopLink {
     grid-row: 4;
